@@ -1,8 +1,5 @@
-"""
-DecodeLabs Industrial Training Kit
-Project 1: The To-Do List (Data Management Phase)
-Batch: 2026
-"""
+#Project 1: The To-Do List
+
 
 # ==========================================
 # 1. MODEL (Data Logic & Memory Management)
@@ -60,15 +57,12 @@ def render_task_view(database_list):
 # ==========================================
 
 def main():
-    """
-    The main application runtime coordinating Input, Process, and Output (IPO).
-    Instantiates the volatile runtime container inside the Heap.
-    """
+
     # The volatile RAM container (The primitive core database list)
     my_tasks = []
     
     while True:
-        print("\n>>> DECODELABS SYSTEM ENGINE v1.0 <<<")
+        print("\n>>> DECODELABS SYSTEM ENGINE <<<")
         print("1. [INPUT]   Add New Task Record")
         print("2. [DISPLAY] View Dynamic Array State")
         print("3. [EXIT]    Terminate Process (Data Volatility Warning)")
@@ -87,7 +81,7 @@ def main():
             render_task_view(my_tasks)
             
         elif user_choice == "3":
-            # Warning block highlighting Slide 11: The Volatile Trap
+            # Warning block: The Volatile Trap
             print("\n[WARNING] Process Terminated. RAM container released. Volatile data cleared.")
             break
             
@@ -95,6 +89,5 @@ def main():
             print("[ERROR] Instruction code invalid. Please input 1, 2, or 3.")
 
 
-# The Architectural Gatekeeper guarding execution context
 if __name__ == "__main__":
     main()
