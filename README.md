@@ -96,8 +96,6 @@ As highlighted throughout the DecodeLabs curriculum, the architectural primitive
 
 Because memory is containerized entirely inside the volatile runtime module (**RAM**), **terminating the script process results in complete data loss**. To guarantee real-world durability, future milestones will involve introducing a **Serialization Layer (JSON)** or an abstraction interface communicating with persistent physical disk drivers.
 
----
-
+--
 ## 🛡️ License & Qualifications
-
-This implementation is submitted under the evaluation criteria of the **DecodeLabs Industrial Training Track (Batch 2026)** to fulfill the mandatory Project 1 milestone and unlock subsequent data engineering phases.
+This implementation is submitted under the evaluation criteria of the **DecodeLabs Industrial Training Track** to fulfill the Project 1 milestone and unlock subsequent data engineering phase
