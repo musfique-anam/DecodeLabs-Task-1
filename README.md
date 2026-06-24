@@ -1,6 +1,5 @@
 # DecodeLabs Industrial Training: Project 1 - In-Memory Database & To-Do Engine
 
-
 ## 🚀 Overview
 
 This repository contains the production-ready implementation of **Project 1: The To-Do List Engine**. Rather than treating this task as a simple scripting exercise, this implementation functions as a primitive **In-Memory Database Engine**, directly applying backend engineering methodologies, memory allocation management, and data separation architecture principles.
@@ -79,7 +78,6 @@ Bypasses manual indexing loops (e.g., `range(len())`) which violate Pythonic bes
 python main.py
 
 ```
-
 
 
 ---
